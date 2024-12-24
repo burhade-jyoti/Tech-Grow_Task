@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/recibg.png');
+    color: white;
+    padding: 100px 0;
+    background-size: cover;
+}
+
+.recipe-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipe-card {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.recipe-card:hover {
+    transform: translateY(-10px) rotateY(10deg) rotateX(10deg);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card:hover img {
+    transform: scale(1.05);
+}
+
+.recipe-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color:orangered !important;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107 !important;
+}
