@@ -3,12 +3,19 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-.hero {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/recibg.png');
-    color: white;
-    padding: 100px 0;
-    background-size: cover;
-}
+.recipe-banner {
+            width: 100%;
+            height: 400px; /* You can adjust the height */
+            background-image: url('img/re.png'); /* Add the path to your image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
 
 .recipe-cards {
     display: flex;

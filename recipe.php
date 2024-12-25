@@ -6,23 +6,21 @@
     <title>3D Animated Recipe Website</title>
     <!-- Add this in the <head> section of your HTML -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styleRecipe.css">
+    <script src="scriptR.js"></script>
 </head>
+<style type="text/css">
+    .carousel-item{
+        height: 5000;
+    }
+</style>
 <body>
     <?php
-
-include'navbarR.html';
-
+        include'navbarR.html';
     ?>
-     <section class="hero">
-        <div class="container text-center">
-            <h1>"Discover Delicious Recipes for Every Occasion"</h1>
-            <p>The cutest recipes made with love.
-</p>
-        </div>
-    </section>
-    <div id="re">
+    <div class="recipe-banner">
+        <h1>The cutest recipes made with love.</h1>
+    </div>
 
     <section class="recipe-cards container mt-5">
         <div class="row">
@@ -65,9 +63,6 @@ include'navbarR.html';
     <footer class="text-center bg-dark text-white py-3">
         <p>&copy; 2024 Recipe Moms Recipes. All Rights Reserved.</p>
     </footer>
-
-    <script src="assets/bootstrap.bundle.min.js"></script>
-    <script src="scriptR.js"></script>
 </body>
 
 
