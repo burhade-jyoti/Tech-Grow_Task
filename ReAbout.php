@@ -29,8 +29,8 @@
 }
 
 </style>
-</head>
-<body>
+
+
     <header class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"><img src="img/l3.png"style="width: 200px; height: 100px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,6 +53,8 @@
             </ul>
         </div>
     </header>
+	</head>
+	<body>
 
 
 
