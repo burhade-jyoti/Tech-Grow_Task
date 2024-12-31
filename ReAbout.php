@@ -9,17 +9,53 @@
     <link href="assets/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Reab.css">
     <style type="text/css">
- 
+ .navbar {
+    background-color:orangered !important;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107 !important;
+}
+.navbar .li .ul{
+	display: inline-flex;
+}
+.navbar-brand .img{
+    height: 50px;
+    width: 50px;
+}
+
 </style>
 </head>
 <body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="img/l3.png"style="width: 200px; height: 100px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="recipe.php">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link"href="Reabout.php">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recipesG.php">Recipes</a>
+                </li>
+        
+                    
+            
+            </ul>
+        </div>
+    </header>
 
-    <!-- Navbar -->
-    <?php
 
-include'navbarR.html';
 
-    ?>
     
     <!-- Hero Section -->
     <section class="hero-about">
